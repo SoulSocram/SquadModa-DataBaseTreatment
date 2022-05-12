@@ -1,0 +1,1218 @@
+0 - natural 
+1 - clássica
+2 - elegante 
+3 - romântica 
+4 - sexy 
+5 - criativa 
+6 - dramático
+
+//completa
+[
+	{
+	"id": 0,
+	"categoria": "personalidade",
+	"grupos": [
+		{
+			"id": 0,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Ativa"
+				},
+				{
+					"id": 1,
+					"name": "Acessível"
+				},
+				{
+					"id": 2,
+					"name": "Casual"
+				},
+				{
+					"id": 3,
+					"name": "Alegre"
+				},
+				{
+					"id": 4,
+					"name": "Competitiva"
+				},
+				{
+					"id": 5,
+					"name": "Enérgica"
+				},
+				{
+					"id": 6,
+					"name": "Entusiasmada"
+				},
+				{
+					"id": 7,
+					"name": "Amigável"
+				},
+				{
+					"id": 8,
+					"name": "Natural"
+				},
+				{
+					"id": 9,
+					"name": "Otimista"
+				},
+				{
+					"id": 10,
+					"name": "Espontânea"
+				}
+			]
+		},
+		{
+			"id": 1,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Apropriada"
+				},
+				{
+					"id": 1,
+					"name": "Profissional"
+				},
+				{
+					"id": 2,
+					"name": "Conservadora"
+				},
+				{
+					"id": 3,
+					"name": "Convencional"
+				},
+				{
+					"id": 4,
+					"name": "Leal"
+				},
+				{
+					"id": 5,
+					"name": "Organizada"
+				},
+				{
+					"id": 6,
+					"name": "Pratica"
+				},
+				{
+					"id": 7,
+					"name": "Com Princípios"
+				},
+				{
+					"id": 8,
+					"name": "Confiável"
+				},
+				{
+					"id": 9,
+					"name": "Responsável"
+				},
+				{
+					"id": 10,
+					"name": "Honesta"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Culta"
+				},
+				{
+					"id": 1,
+					"name": "Digna"
+				},
+				{
+					"id": 2,
+					"name": "Sagaz"
+				},
+				{
+					"id": 3,
+					"name": "Formal"
+				},
+				{
+					"id": 4,
+					"name": "Meticulosa"
+				},
+				{
+					"id": 5,
+					"name": "Pronta"
+				},
+				{
+					"id": 6,
+					"name": "Apropriada"
+				},
+				{
+					"id": 7,
+					"name": "Refinada"
+				},
+				{
+					"id": 8,
+					"name": "Serena"
+				},
+				{
+					"id": 9,
+					"name": "Imponente"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Carinhosa"
+				},
+				{
+					"id": 1,
+					"name": "Compaixão"
+				},
+				{
+					"id": 2,
+					"name": "Atenciosa"
+				},
+				{
+					"id": 3,
+					"name": "Recatada"
+				},
+				{
+					"id": 4,
+					"name": "Feminina"
+				},
+				{
+					"id": 5,
+					"name": "Gentil"
+				},
+				{
+					"id": 6,
+					"name": "Acolhedora"
+				},
+				{
+					"id": 7,
+					"name": "Receptiva"
+				},
+				{
+					"id": 8,
+					"name": "Sentimental"
+				},
+				{
+					"id": 9,
+					"name": "Fala Suave"
+				},
+				{
+					"id": 10,
+					"name": "Calorosa"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Desafiadora"
+				},
+				{
+					"id": 1,
+					"name": "Sedutora"
+				},
+				{
+					"id": 2,
+					"name": "Animada"
+				},
+				{
+					"id": 3,
+					"name": "Flerte"
+				},
+				{
+					"id": 4,
+					"name": "Glamorosa"
+				},
+				{
+					"id": 5,
+					"name": "Magnética"
+				},
+				{
+					"id": 6,
+					"name": "Provocante"
+				},
+				{
+					"id": 7,
+					"name": "Segura"
+				},
+				{
+					"id": 8,
+					"name": "Sensual"
+				},
+				{
+					"id": 9,
+					"name": "Sexy"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Artística"
+				},
+				{
+					"id": 1,
+					"name": "Eclética"
+				},
+				{
+					"id": 2,
+					"name": "Emocional"
+				},
+				{
+					"id": 3,
+					"name": "Espirito Livre"
+				},
+				{
+					"id": 4,
+					"name": "Imaginativa"
+				},
+				{
+					"id": 5,
+					"name": "Independente"
+				},
+				{
+					"id": 6,
+					"name": "Inovadora"
+				},
+				{
+					"id": 7,
+					"name": "Original"
+				},
+				{
+					"id": 8,
+					"name": "Subjetiva"
+				},
+				{
+					"id": 9,
+					"name": "Não Convencional"
+				},
+				{
+					"id": 10,
+					"name": "Única"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Distante/Indiferente"
+				},
+				{
+					"id": 1,
+					"name": "Assertiva"
+				},
+				{
+					"id": 2,
+					"name": "Arrojada"
+				},
+				{
+					"id": 3,
+					"name": "Confiante"
+				},
+				{
+					"id": 4,
+					"name": "Cosmopolita"
+				},
+				{
+					"id": 5,
+					"name": "Exigente"
+				},
+				{
+					"id": 6,
+					"name": "Intensa"
+				},
+				{
+					"id": 7,
+					"name": "Poderosa"
+				},
+				{
+					"id": 8,
+					"name": "Sofisticada"
+				},
+				{
+					"id": 9,
+					"name": "Arrebatadora"
+				},
+				{
+					"id": 10,
+					"name": "Forte"
+				}
+			]
+		}
+	]
+},
+{
+	"id": 1,
+	"categoria": "profissões",
+	"grupos": [
+		{
+			"id": 0,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Agricultura/Industria Alimentícia"
+				},
+				{
+					"id": 1,
+					"name": "Relacionado com Animais"
+				},
+				{
+					"id": 2,
+					"name": "Relacionado com Crianças"
+				},
+				{
+					"id": 3,
+					"name": "Construção"
+				},
+				{
+					"id": 4,
+					"name": "Engenharia"
+				},
+				{
+					"id": 5,
+					"name": "Hardware/Software"
+				},
+				{
+					"id": 6,
+					"name": "Tecnologia da Informação – TI"
+				},
+				{
+					"id": 7,
+					"name": "Jornalismo"
+				},
+				{
+					"id": 8,
+					"name": "Manufatura"
+				},
+				{
+					"id": 9,
+					"name": "Trabalho em Espaço Aberto"
+				},
+				{
+					"id": 10,
+					"name": "Esportes"
+				},
+				{
+					"id": 11,
+					"name": "Educação (escola elementar e secundária)"
+				}
+			]
+		},
+		{
+			"id": 1,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Contabilidade"
+				},
+				{
+					"id": 1,
+					"name": "Administração"
+				},
+				{
+					"id": 2,
+					"name": "Bancos"
+				},
+				{
+					"id": 3,
+					"name": "Coach de Negócios"
+				},
+				{
+					"id": 4,
+					"name": "Educação (privada/universidade)"
+				},
+				{
+					"id": 5,
+					"name": "Finanças"
+				},
+				{
+					"id": 6,
+					"name": "Seguros"
+				},
+				{
+					"id": 7,
+					"name": "Governo"
+				},
+				{
+					"id": 8,
+					"name": "Direito"
+				},
+				{
+					"id": 9,
+					"name": "Politica"
+				},
+				{
+					"id": 10,
+					"name": "Mercado Imobiliário"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Consultoria"
+				},
+				{
+					"id": 1,
+					"name": "Direito Corporativo"
+				},
+				{
+					"id": 2,
+					"name": "RP Corporativas"
+				},
+				{
+					"id": 3,
+					"name": "Cargo Alto Escalão"
+				},
+				{
+					"id": 4,
+					"name": "Executiva"
+				},
+				{
+					"id": 5,
+					"name": "Líder de Estado"
+				},
+				{
+					"id": 6,
+					"name": "Negócios Internacionais"
+				},
+				{
+					"id": 7,
+					"name": "Marketing e Mídia (alto cargo)"
+				},
+				{
+					"id": 8,
+					"name": "Figura Politica"
+				},
+				{
+					"id": 9,
+					"name": "Figura Pública"
+				},
+				{
+					"id": 10,
+					"name": "Eventos Especiais"
+				},
+				{
+					"id": 11,
+					"name": "Relações Públicas Corporativa"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Psicóloga"
+				},
+				{
+					"id": 1,
+					"name": "Cuidados com Saúde"
+				},
+				{
+					"id": 2,
+					"name": "Home Office"
+				},
+				{
+					"id": 3,
+					"name": "Hospício"
+				},
+				{
+					"id": 4,
+					"name": "Hotelaria/Hospitalidade"
+				},
+				{
+					"id": 5,
+					"name": "Organizações Não Governamentais"
+				},
+				{
+					"id": 6,
+					"name": "Planejamento Eventos Sociais"
+				},
+				{
+					"id": 7,
+					"name": "Pré-Escola"
+				},
+				{
+					"id": 8,
+					"name": "Professora Infantil (bebês)"
+				},
+				{
+					"id": 9,
+					"name": "Casamentos"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Atriz"
+				},
+				{
+					"id": 1,
+					"name": "Beleza"
+				},
+				{
+					"id": 2,
+					"name": "Entretenimento"
+				},
+				{
+					"id": 3,
+					"name": "Fitness"
+				},
+				{
+					"id": 4,
+					"name": "Cabeleireira"
+				},
+				{
+					"id": 5,
+					"name": "Vestuário Intimo"
+				},
+				{
+					"id": 6,
+					"name": "Maquiadora"
+				},
+				{
+					"id": 7,
+					"name": "Modelo"
+				},
+				{
+					"id": 8,
+					"name": "Músico"
+				},
+				{
+					"id": 9,
+					"name": "Hostess de Clubes Noturnos"
+				},
+				{
+					"id": 10,
+					"name": "Cantora/Dançarina"
+				},
+				{
+					"id": 11,
+					"name": "Agente de Artistas"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Publicidade"
+				},
+				{
+					"id": 1,
+					"name": "Arquitetura"
+				},
+				{
+					"id": 2,
+					"name": "Arte/ Filmes"
+				},
+				{
+					"id": 3,
+					"name": "Design de Moda"
+				},
+				{
+					"id": 4,
+					"name": "Design Gráfico"
+				},
+				{
+					"id": 5,
+					"name": "Consultoria de Imagem"
+				},
+				{
+					"id": 6,
+					"name": "Design de Interiores"
+				},
+				{
+					"id": 7,
+					"name": "Industria Musical"
+				},
+				{
+					"id": 8,
+					"name": "Fotografia"
+				},
+				{
+					"id": 9,
+					"name": "Teatro"
+				},
+				{
+					"id": 10,
+					"name": "Visual Merchandiser"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Cosmética"
+				},
+				{
+					"id": 1,
+					"name": "Entretenimento"
+				},
+				{
+					"id": 2,
+					"name": "Executiva (arte e entretenimento)"
+				},
+				{
+					"id": 3,
+					"name": "Alta Moda"
+				},
+				{
+					"id": 4,
+					"name": "Artes"
+				},
+				{
+					"id": 5,
+					"name": "Consultoria de Imagem Corporativa"
+				},
+				{
+					"id": 6,
+					"name": "Design de Interiores (comercial)"
+				},
+				{
+					"id": 7,
+					"name": "Direito (alto nível)"
+				},
+				{
+					"id": 8,
+					"name": "Apresentadora / Mestre de Cerimônias"
+				},
+				{
+					"id": 9,
+					"name": "Palestrante"
+				},
+				{
+					"id": 10,
+					"name": "Relações Públicas (arte/publicidade)"
+				}
+			]
+		}
+	]
+},
+{
+	"id": 2,
+	"categoria": "atividades",
+	"grupos": [
+		{
+			"id": 0,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Esportes"
+				},
+				{
+					"id": 1,
+					"name": "Eventos Infantis"
+				},
+				{
+					"id": 2,
+					"name": "Temporada de Inverno"
+				},
+				{
+					"id": 3,
+					"name": "Hobbies"
+				},
+				{
+					"id": 4,
+					"name": "Encontros Casuais"
+				},
+				{
+					"id": 5,
+					"name": "Atividades de Lazer"
+				},
+				{
+					"id": 6,
+					"name": "Atividades ao ar livre"
+				},
+				{
+					"id": 7,
+					"name": "Escola"
+				},
+				{
+					"id": 8,
+					"name": "Espectador Esportivo"
+				},
+				{
+					"id": 9,
+					"name": "Viagens"
+				}
+			]
+		},
+		{
+			"id": 1,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Entrevistas de Negócios"
+				},
+				{
+					"id": 1,
+					"name": "Social de Negócios"
+				},
+				{
+					"id": 2,
+					"name": "Funções na Igreja"
+				},
+				{
+					"id": 3,
+					"name": "Voluntário na Comunidade"
+				},
+				{
+					"id": 4,
+					"name": "Tribunal de Justiça"
+				},
+				{
+					"id": 5,
+					"name": "Negócios Pessoais"
+				},
+				{
+					"id": 6,
+					"name": "Eventos Políticos"
+				},
+				{
+					"id": 7,
+					"name": "Clubes Privados"
+				},
+				{
+					"id": 8,
+					"name": "Reuniões da Escola"
+				},
+				{
+					"id": 9,
+					"name": "Eventos Esportivos de Luxo"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Eventos Cerimoniais"
+				},
+				{
+					"id": 1,
+					"name": "Eventos de Caridade"
+				},
+				{
+					"id": 2,
+					"name": "Eventos Culturais"
+				},
+				{
+					"id": 3,
+					"name": "Jantares Formais"
+				},
+				{
+					"id": 4,
+					"name": "Encontros Sociais Formais"
+				},
+				{
+					"id": 5,
+					"name": "Eventos de Aberturas"
+				},
+				{
+					"id": 6,
+					"name": "Aparições Públicas"
+				},
+				{
+					"id": 7,
+					"name": "Recepções"
+				},
+				{
+					"id": 8,
+					"name": "Aparições na TV"
+				},
+				{
+					"id": 9,
+					"name": "Casamentos (formais)"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Eventos Infantis"
+				},
+				{
+					"id": 1,
+					"name": "Funções da Igreja"
+				},
+				{
+					"id": 2,
+					"name": "Namorar"
+				},
+				{
+					"id": 3,
+					"name": "Festas em Jardins"
+				},
+				{
+					"id": 4,
+					"name": "Entretenimento Caseiro"
+				},
+				{
+					"id": 5,
+					"name": "Almoços"
+				},
+				{
+					"id": 6,
+					"name": "Recepções"
+				},
+				{
+					"id": 7,
+					"name": "Chás"
+				},
+				{
+					"id": 8,
+					"name": "Voluntariado"
+				},
+				{
+					"id": 9,
+					"name": "Casamentos"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Eventos na Praia"
+				},
+				{
+					"id": 1,
+					"name": "Dançar"
+				},
+				{
+					"id": 2,
+					"name": "Aulas Fitness"
+				},
+				{
+					"id": 3,
+					"name": "Eventos de Gala"
+				},
+				{
+					"id": 4,
+					"name": "Clubes Noturnos"
+				},
+				{
+					"id": 5,
+					"name": "Festas"
+				},
+				{
+					"id": 6,
+					"name": "Piscina e Terraços"
+				},
+				{
+					"id": 7,
+					"name": "Férias em Resorts"
+				},
+				{
+					"id": 8,
+					"name": "Socializar"
+				},
+				{
+					"id": 9,
+					"name": "Temperaturas Quentes"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Eventos de Arte"
+				},
+				{
+					"id": 1,
+					"name": "Concertos"
+				},
+				{
+					"id": 2,
+					"name": "Feiras de Artesanato"
+				},
+				{
+					"id": 3,
+					"name": "Apresentações de Dança"
+				},
+				{
+					"id": 4,
+					"name": "Showroom de Designer"
+				},
+				{
+					"id": 5,
+					"name": "Desfiles"
+				},
+				{
+					"id": 6,
+					"name": "Exposições em Galerias"
+				},
+				{
+					"id": 7,
+					"name": "Museus"
+				},
+				{
+					"id": 8,
+					"name": "Eventos Musicais"
+				},
+				{
+					"id": 9,
+					"name": "Teatro"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Eventos Urbanos"
+				},
+				{
+					"id": 1,
+					"name": "Desfiles"
+				},
+				{
+					"id": 2,
+					"name": "Eventos de Gala"
+				},
+				{
+					"id": 3,
+					"name": "Vida Noturna"
+				},
+				{
+					"id": 4,
+					"name": "Inaugurações e Lançamentos"
+				},
+				{
+					"id": 5,
+					"name": "Festas"
+				},
+				{
+					"id": 6,
+					"name": "Pré Estreias"
+				},
+				{
+					"id": 7,
+					"name": "Eventos de Lançamentos para Mídia"
+				},
+				{
+					"id": 8,
+					"name": "Aparições em TV"
+				}
+			]
+		}
+	]
+},
+{
+	"id": 3,
+	"categoria": "objetivos",
+	"grupos": [
+		{
+			"id": 0,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Amigável, Próxima"
+				},
+				{
+					"id": 1,
+					"name": "Responsável, Confiável"
+				},
+				{
+					"id": 2,
+					"name": "Pronta, Preparada"
+				},
+				{
+					"id": 3,
+					"name": "Carinhosa, Compassiva"
+				},
+				{
+					"id": 4,
+					"name": "Sexy, Emocionante"
+				},
+				{
+					"id": 5,
+					"name": "Inovadora, Artística"
+				},
+				{
+					"id": 6,
+					"name": "Confiante, Cosmopolita"
+				}
+			]
+		},
+		{
+			"id": 1,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Energia, Jovialidade"
+				},
+				{
+					"id": 1,
+					"name": "Credibilidade, Autoridade"
+				},
+				{
+					"id": 2,
+					"name": "Refinada, Digna"
+				},
+				{
+					"id": 3,
+					"name": "Generosa, Solidária"
+				},
+				{
+					"id": 4,
+					"name": "Autoconfiante, magnética"
+				},
+				{
+					"id": 5,
+					"name": "Independente, Livre"
+				},
+				{
+					"id": 6,
+					"name": "Forte, Poderosa"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Reduzir stress, me divertir"
+				},
+				{
+					"id": 1,
+					"name": "Ser respeitada, organizada"
+				},
+				{
+					"id": 2,
+					"name": "Elevar meu status, prestigio"
+				},
+				{
+					"id": 3,
+					"name": "Ter relações carinhosas"
+				},
+				{
+					"id": 4,
+					"name": "Atrair e envolver pessoas"
+				},
+				{
+					"id": 5,
+					"name": "Expressar minha individualidade"
+				},
+				{
+					"id": 6,
+					"name": "Afirmar minha influência, poder"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Eu gosto de muitas opções e liberdade"
+				},
+				{
+					"id": 1,
+					"name": "Sou conservadora e prática"
+				},
+				{
+					"id": 2,
+					"name": "Sou criteriosa e meticulosa"
+				}
+			]
+		}
+
+	]
+}
+]
+
+//teste
+[
+	{
+	"id": 0,
+	"categoria": "personalidade",
+	"grupos": [
+		{
+			"id": 0,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Ativa"
+				},
+				{
+					"id": 1,
+					"name": "Acessível"
+				}
+			]
+		},
+		{
+			"id": 1,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Apropriada"
+				},
+				{
+					"id": 1,
+					"name": "Profissional"
+				}
+			]
+		}
+	]
+},
+{
+	"id": 1,
+	"categoria": "atividade",
+	"grupos": [
+		{
+			"id": 0,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Psicóloga"
+				},
+				{
+					"id": 1,
+					"name": "Cuidados com Saúde"
+				}
+			]
+		},
+		{
+			"id": 1,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Esportes"
+				},
+				{
+					"id": 1,
+					"name": "Atividades ao ar livre"
+				}
+			]
+		}
+	]
+}
+
+]
