@@ -30,14 +30,6 @@ class functions:
             maxBase = np.argmax(countStyleBase, axis=1)
             maxComplement = np.argmax(countStyleComplement, axis=1)
 
-            print(countStyleBase)
-
-            for i in countStyleBase: 
-                i = 0
-
-            for i in countStyleComplement: 
-                i = 0
-
             match maxBase:
                 case 0:
                     styleBase = 'Natural'
@@ -56,7 +48,9 @@ class functions:
                 case 3:
                     styleComplement = 'Dramático'
 
-            matrizResult[0, rowNumber-2] = f'{styleBase, styleComplement}'
+            print(f'{styleBase}, {styleComplement}')
+
+            matrizResult[0, rowNumber-2] = f'{styleBase}, {styleComplement}'
 
             rowNumber += 1
             print(f'Itens a serem carregados: {rowNumber - 2}/{itensCount}')
