@@ -13,8 +13,6 @@ worksheetWrite = xlsx.openWorkbook(fileXlsx, 'Tratamento')
 
 result = functions.loadData(worksheetRead, fileJson)
 
-#functions.teste()
-
 print(result)
 
 xlsx.close(fileXlsx)

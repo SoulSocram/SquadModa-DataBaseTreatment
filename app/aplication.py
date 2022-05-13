@@ -1,11 +1,13 @@
 import string
 import numpy as np
+import os
 
 class functions:
 
     def loadData(xlsxFileRead,fileJson):
 
         matrizBi = functions.createMatriz(fileJson, xlsxFileRead)
+        matrizResult = []
 
         rowNumber = 2
         itensCount = 0
@@ -17,8 +19,6 @@ class functions:
             rowNumber +=1
 
         rowNumber = 2
-
-        matrizResult = np.zeros((1,itensCount), str)
 
         while xlsxFileRead[f'A{rowNumber}'].value != None:
 
@@ -48,16 +48,16 @@ class functions:
                 case 3:
                     styleComplement = 'Dramático'
 
-            print(f'{styleBase}, {styleComplement}')
-
-            matrizResult[0, rowNumber-2] = f'{styleBase}, {styleComplement}'
+            matrizResult.append(f'{styleBase} e {styleComplement}')
 
             rowNumber += 1
+            os.system('cls')
             print(f'Itens a serem carregados: {rowNumber - 2}/{itensCount}')
+        
+        matrizResult = np.array([matrizResult])
+        matrizBi = np.append(matrizBi, matrizResult.T, axis = 1)
  
-        np.savetxt('BaseBinária.csv', matrizBi, fmt="%i", delimiter=",")
-
-        print(matrizResult)
+        np.savetxt('BaseBinária.csv', matrizBi, fmt="%s", delimiter=",")
 
         return "Base carregada com sucesso!"
 
