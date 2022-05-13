@@ -11,8 +11,10 @@ fileJson = jsonArq.openFile(pathJson)
 worksheetRead = xlsx.openWorkbook(fileXlsx, 'Pesquisa')
 worksheetWrite = xlsx.openWorkbook(fileXlsx, 'Tratamento')
 
-result = functions.loadData(worksheetRead, fileJson)
+#result = functions.loadData(worksheetRead, fileJson)
 
-print(result)
+functions.teste()
+
+#print(result)
 
 xlsx.close(fileXlsx)
