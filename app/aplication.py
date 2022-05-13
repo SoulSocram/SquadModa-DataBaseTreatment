@@ -7,10 +7,10 @@ class functions:
 
         matrizBi = functions.createMatriz(fileJson, xlsxFileRead)
 
-        countStyle = [0, 0, 0, 0, 0, 0, 0]
-
         rowNumber = 2
         itensCount = 0
+        styleBase = ''
+        styleComplement = ''
 
         while xlsxFileRead[f'A{rowNumber}'].value != None:
             itensCount += 1
@@ -18,20 +18,56 @@ class functions:
 
         rowNumber = 2
 
+        matrizResult = np.zeros((1,itensCount), str)
+
         while xlsxFileRead[f'A{rowNumber}'].value != None:
-            matrizBi = functions.toCheck(fileJson, xlsxFileRead, rowNumber, rowNumber-2, matrizBi, countStyle)
-            
-            for i in countStyle: i = 0
+
+            countStyleBase = np.zeros((1,3), int)
+            countStyleComplement = np.zeros((1,4), int)
+
+            matrizBi = functions.toCheck(fileJson, xlsxFileRead, rowNumber, matrizBi, countStyleBase, countStyleComplement)
+
+            maxBase = np.argmax(countStyleBase, axis=1)
+            maxComplement = np.argmax(countStyleComplement, axis=1)
+
+            print(countStyleBase)
+
+            for i in countStyleBase: 
+                i = 0
+
+            for i in countStyleComplement: 
+                i = 0
+
+            match maxBase:
+                case 0:
+                    styleBase = 'Natural'
+                case 1:
+                    styleBase = 'Clássica'
+                case 2:
+                    styleBase = 'Elegante'
+
+            match maxComplement:
+                case 0:
+                    styleComplement = 'Romântica'
+                case 1:
+                    styleComplement = 'Sexy'
+                case 2:
+                    styleComplement = 'Criativa'
+                case 3:
+                    styleComplement = 'Dramático'
+
+            matrizResult[0, rowNumber-2] = f'{styleBase, styleComplement}'
+
             rowNumber += 1
             print(f'Itens a serem carregados: {rowNumber - 2}/{itensCount}')
  
         np.savetxt('BaseBinária.csv', matrizBi, fmt="%i", delimiter=",")
 
-        
+        print(matrizResult)
 
         return "Base carregada com sucesso!"
 
-    def toCheck(fileJson, xlsxFileRead,cellNumber, rowNumber, matriz, countStyle):
+    def toCheck(fileJson, xlsxFileRead, rowNumber, matriz, countStyleBase, countStyleComplement):
 
         alpha = list(string.ascii_uppercase[1:20])
         columnNumber = 0
@@ -43,13 +79,14 @@ class functions:
                     columnNumber = 7
                 for item in range(len(fileJson[category]['grupos'][group]['itens'])):
                     itemName = fileJson[category]['grupos'][group]['itens'][item]['name']
-                    cellValue = xlsxFileRead[f'{alpha[columnNumber]}{cellNumber}'].value
+                    cellValue = xlsxFileRead[f'{alpha[columnNumber]}{rowNumber}'].value
                     if cellValue != None:
                         if f'{itemName}' in cellValue:
-                            matriz[rowNumber,itemNumber] = 1
-                            countNumber = fileJson[category]['grupos'][group]['id']
-                            countStyle[countNumber] += 1
-
+                            matriz[(rowNumber-2),itemNumber] = 1
+                            if fileJson[category]['grupos'][group]['id'] <= 2:
+                                countStyleBase[0,fileJson[category]['grupos'][group]['id']] += 1
+                            else:
+                                countStyleComplement[0,(fileJson[category]['grupos'][group]['id']-3)] += 1
                     itemNumber += 1
                 columnNumber += 1
         return matriz
@@ -73,10 +110,8 @@ class functions:
 
     def teste():
 
-        a = np.array([[1, 2], [3, 4]])
-        b = np.array([['TESTE0', 'TESTE1']])
-        c =np.concatenate((a, b.T), axis=1)
-
-        print(c)
+        countStyleComplement = np.array([[1, 2, 1]])
+        maxIndex = np.argmax(countStyleComplement, axis=1)
+        print(maxIndex)
 
         
