@@ -1016,6 +1016,79 @@
 },
 {
 	"id": 3,
+	"categoria": "imagens",
+	"grupos": [
+		
+		{
+			"id": 0,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Opção 4"
+				},
+				{
+					"id": 1,
+					"name": "Opção 6"
+				},
+				{
+					"id": 2,
+					"name": "Opção 3"
+				},
+				{
+					"id": 3,
+					"name": "Opção 1"
+				},
+				{
+					"id": 4,
+					"name": "Opção 5"
+				},
+				{
+					"id": 5,
+					"name": "Opção 2"
+				},
+				{
+					"id": 6,
+					"name": "Opção 7"
+				}
+			]
+		},
+		{
+			"id": 1,
+			"itens": [
+				{
+					"id": 0,
+					"name": "Opção 4"
+				},
+				{
+					"id": 1,
+					"name": "Opção 3"
+				},
+				{
+					"id": 2,
+					"name": "Opção 7"
+				},
+				{
+					"id": 3,
+					"name": "Opção 5"
+				},
+				{
+					"id": 4,
+					"name": "Opção 6"
+				},
+				{
+					"id": 5,
+					"name": "Opção 2"
+				},
+				{
+					"id": 6,
+					"name": "Opção 1"
+				}
+			]
+		}
+	]
+},
+{
+	"id": 4,
 	"categoria": "objetivos",
 	"grupos": [
 		{

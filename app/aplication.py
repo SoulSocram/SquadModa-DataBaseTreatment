@@ -25,7 +25,14 @@ class functions:
             countStyleBase = np.zeros((1,3), int)
             countStyleComplement = np.zeros((1,4), int)
 
-            matrizBi = functions.toCheck(fileJson, xlsxFileRead, rowNumber, matrizBi, countStyleBase, countStyleComplement)
+            countGroups = 1
+            for category in range(len(fileJson)):
+                for group in range(len(fileJson[category]['grupos'])):
+                    countGroups += 1
+
+            countGroups -= 6
+
+            matrizBi = functions.toCheck(fileJson, xlsxFileRead, rowNumber, matrizBi, countStyleBase, countStyleComplement, countGroups)
 
             maxBase = np.argmax(countStyleBase, axis=1)
             maxComplement = np.argmax(countStyleComplement, axis=1)
@@ -61,9 +68,9 @@ class functions:
 
         return "Base carregada com sucesso!"
 
-    def toCheck(fileJson, xlsxFileRead, rowNumber, matriz, countStyleBase, countStyleComplement):
+    def toCheck(fileJson, xlsxFileRead, rowNumber, matriz, countStyleBase, countStyleComplement, alphaRange):
 
-        alpha = list(string.ascii_uppercase[1:20])
+        alpha = list(string.ascii_uppercase[1:alphaRange])
         columnNumber = 0
         itemNumber = 0
 
